@@ -1,6 +1,6 @@
 # driver-drowsiness-detection
-The driver drowsiness detection project aims to detect when a driver is drowsy or inattentive while driving, in order to prevent accidents caused by driver’s sleep.
-1. The project uses a webcam to capture images of the driver and apply deep learning algorithms to recognize drowsiness
-2. The project detect the eye region of the driver to detect fatigue or drowsiness.
-3. The project uses OpenCV to gather images from a webcam and feed them into a Deep Learning model to classify whether the person’s eyes are open or closed
-4. It alerts the driver from drowsi state by giving alarm sound when he closes eyes for certain time.
+The driver drowsiness detection project focuses on identifying instances of driver fatigue or in attention during vehicle operation, aiming to enhance road safety and prevent accidents caused by driver drowsiness. The key components of the project include:
+Utilizing a webcam to capture real-time images of the driver.
+Employing deep learning algorithms to analyze the eye region of the driver for signs of fatigue or drowsiness.
+Leveraging OpenCV to acquire images from the webcam and inputting them into a deep learning model.
+Implementing a mechanism that triggers an alarm sound when the model classifies the driver's eyes as closed for a specific duration, alerting the driver to their drowsy state.
